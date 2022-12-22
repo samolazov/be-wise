@@ -7,9 +7,9 @@ type Dataset = {
 
 (async () => {
     const [templates, adjectives, names] = await Promise.all([
-        loadJson("./templates.json"),
-        loadJson("./adjectives.json"),
-        loadJson("./names.json"),
+        loadJson("./dict/templates.json"),
+        loadJson("./dict/adjectives.json"),
+        loadJson("./dict/names.json"),
     ]);
 
     const template = getRandom(templates);
