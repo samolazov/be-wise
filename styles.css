@@ -1,0 +1,46 @@
+html, body {
+    background: aliceblue;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+figure {
+    color: #424242;
+    display: inline-block;
+    padding: 2em 4em;
+    transform-origin: center center;
+    white-space: nowrap;
+}
+
+cite {
+    animation: appearing 3s 500ms forwards;
+    font-style: normal;
+    font-size: 2em;
+    opacity: 0;
+}
+
+figcaption {
+    animation: appearing 3s 1500ms forwards;
+    font-size: 1.2em;
+    margin-top: 1em;
+    opacity: 0;
+}
+
+figcaption i {
+    font-size: 0.7em;
+}
+
+@keyframes appearing {
+    to {
+        opacity: 1;
+    }
+}
