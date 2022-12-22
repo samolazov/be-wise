@@ -1,3 +1,5 @@
 # Be Wise
 
-Be Wise is an Ancient Greek quotes generator
+Enjoy Ancient Greek wisdom.
+
+https://samolazov.github.io/be-wise/
